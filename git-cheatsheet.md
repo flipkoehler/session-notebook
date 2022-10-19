@@ -11,3 +11,13 @@
 - git remote -v < zeigt die Verbindung an
 - git push -u origin < überträgt den Stand
 - git clone "Adresse" < holt alles von Github
+- git remote rm origin ... < setzt die URL vom lokalen Repo zurück
+- .gitignore < alle Dateien die ignoriert werden sollen git
+- git switch -c "feature/new-content-list" < neuer Branch
+- git branch < Übersicht der Branches
+- git branch -a < Übersicht inkl. aller Remote Branches
+- git push "Zeile kopieren also --set-upstream origin..."
+- git fetch < Suche nach Aktualisierungen (=pull)
+- git merge < Mergen der Dateien
+- git pull < git fetch und git merge (nach dem Pull Request um Main Branch lokal zu aktualisieren)
+- git branch -d "Benennung" < delete Branch (kann wieder geöffnet werden auf github)
